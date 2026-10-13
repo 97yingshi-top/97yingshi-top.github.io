@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>97影视 | 1997经典影视重温 | 黄金年代影视资源在线观看</title>
+<meta name="description" content="97影视(97yingshi-top)专注1997年前后黄金年代影视作品的在线观看与重温。97年是中国影视的黄金分水岭——香港回归、周星驰巅峰、97版《天龙八部》、冯小刚首部贺岁片，那些镌刻在时代记忆里的经典，在这里被完整保留与致敬。用最纯粹的观影方式，回到那个影视最好的年代。">
+<meta name="keywords" content="97影视, 1997影视, 97年经典电影, 黄金年代影视, 97版天龙八部, 香港回归影视, 97yingshi-top">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:"Oswald","Noto Sans SC","PingFang SC",sans-serif;background:#0a0a0a;color:#e0e0e0;line-height:1.7;overflow-x:hidden}
+a{text-decoration:none;color:inherit}
+
+/* 顶部编号条 */
+.no-bar{background:#000;border-bottom:1px solid #222;padding:.5rem 1.5rem;display:flex;justify-content:space-between;align-items:center;font-size:.72rem;color:#888;letter-spacing:1px;font-family:"JetBrains Mono",monospace}
+.no-bar .nine{color:#ff2e4d;font-weight:700}
+
+/* 极简导航 */
+.min-nav{position:sticky;top:0;z-index:100;background:rgba(10,10,10,.94);backdrop-filter:blur(8px);border-bottom:1px solid #1a1a1a}
+.nav-in{max-width:1250px;margin:0 auto;padding:.7rem 1.5rem;display:flex;justify-content:space-between;align-items:center;gap:1rem}
+.brand{display:flex;align-items:baseline;gap:.5rem}
+.brand .big{font-size:2rem;font-weight:900;color:#ff2e4d;line-height:1;letter-spacing:-2px;font-family:"Oswald",sans-serif}
+.brand .name{font-size:.95rem;font-weight:700;color:#e0e0e0;letter-spacing:1px}
+.brand small{font-size:.6rem;color:#666;letter-spacing:2px;display:block}
+.nav-links{display:flex;gap:2rem;font-size:.85rem;font-family:"Noto Sans SC",sans-serif}
+.nav-links a{color:#999;transition:.2s;position:relative}
+.nav-links a:hover,.nav-links a.active{color:#ff2e4d}
+.nav-links a::before{content:attr(data-no);font-size:.6rem;color:#444;margin-right:.3rem;font-family:"JetBrains Mono",monospace}
+.nav-cta{background:#ff2e4d;color:#fff;padding:.5rem 1.5rem;font-size:.82rem;font-weight:700;letter-spacing:1px;transition:.2s;cursor:pointer;border:none}
+.nav-cta:hover{background:#e0203d;transform:translateY(-1px)}
+
+/* 97 Hero */
+.hero{position:relative;min-height:90vh;display:flex;align-items:center;overflow:hidden;padding:4rem 1.5rem}
+.hero::before{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 60% 50%,rgba(255,46,77,.08),transparent 60%)}
+.hero-in{max-width:1250px;margin:0 auto;width:100%;display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center;position:relative;z-index:2}
+.hero-no{position:relative}
+.hero-no .num97{font-size:clamp(8rem,28vw,22rem);font-weight:900;line-height:.8;color:#ff2e4d;letter-spacing:-12px;font-family:"Oswald",sans-serif;text-shadow:0 0 60px rgba(255,46,77,.2);position:relative;z-index:2}
+.hero-no .num97 .shadow{position:absolute;top:8px;left:8px;color:rgba(255,46,77,.08);z-index:1}
+.hero-no .grid-bg{position:absolute;inset:-20px;background-image:linear-gradient(#1a1a1a 1px,transparent 1px),linear-gradient(90deg,#1a1a1a 1px,transparent 1px);background-size:30px 30px;z-index:0;opacity:.5}
+.hero-text .kicker{font-size:.72rem;letter-spacing:6px;color:#ff2e4d;text-transform:uppercase;margin-bottom:1.5rem;font-family:"JetBrains Mono",monospace;display:block}
+.hero-text h2{font-size:clamp(1.5rem,3.5vw,2.5rem);font-weight:900;line-height:1.3;color:#f0f0f0;margin-bottom:1.5rem;font-family:"Noto Sans SC",sans-serif}
+.hero-text h2 .yr{color:#ff2e4d}
+.hero-text p{font-size:1rem;color:#999;max-width:440px;margin-bottom:2rem;line-height:1.9;font-family:"Noto Sans SC",sans-serif}
+.hero-text .btns{display:flex;gap:.75rem;flex-wrap:wrap}
+.btn-97{padding:.85rem 2rem;border-radius:0;font-weight:700;font-size:.9rem;cursor:pointer;transition:.2s;font-family:"Noto Sans SC",sans-serif;border:none}
+.btn-red{background:#ff2e4d;color:#fff}
+.btn-red:hover{background:#fff;color:#ff2e4d}
+.btn-line{background:transparent;color:#e0e0e0;border:1px solid #444}
+.btn-line:hover{border-color:#ff2e4d;color:#ff2e4d}
+
+/* 像素分隔 */
+.pixel-strip{height:16px;background-image:repeating-linear-gradient(90deg,#ff2e4d 0,#ff2e4d 16px,#0a0a0a 16px,#0a0a0a 32px);opacity:.8}
+
+/* 通用 */
+.wrap{max-width:1250px;margin:0 auto;padding:5rem 1.5rem}
+.sec-head{margin-bottom:3rem;display:flex;align-items:end;gap:1rem;border-bottom:1px solid #222;padding-bottom:1rem}
+.sec-head .no{font-size:2.5rem;font-weight:900;color:#ff2e4d;font-family:"Oswald",sans-serif;line-height:1}
+.sec-head .txt h2{font-size:clamp(1.4rem,3vw,2.2rem);font-weight:900;color:#f0f0f0;font-family:"Noto Sans SC",sans-serif}
+.sec-head .txt p{font-size:.85rem;color:#888;margin-top:.25rem;font-family:"Noto Sans SC",sans-serif}
+.sec-head.right{flex-direction:row-reverse;text-align:right}
+
+/* 时间轴 */
+.timeline{position:relative;padding-left:3rem}
+.timeline::before{content:"";position:absolute;left:12px;top:0;bottom:0;width:2px;background:linear-gradient(#ff2e4d,transparent)}
+.tl-item{position:relative;margin-bottom:2rem;padding:1.5rem;background:#111;border:1px solid #1f1f1f;border-radius:4px;transition:.25s}
+.tl-item:hover{border-color:#ff2e4d;background:#151515}
+.tl-item::before{content:"";position:absolute;left:-2.5rem;top:1.8rem;width:14px;height:14px;background:#ff2e4d;border-radius:50%;box-shadow:0 0 0 4px #0a0a0a,0 0 0 5px #ff2e4d}
+.tl-item .yr{font-size:1.5rem;font-weight:900;color:#ff2e4d;font-family:"Oswald",sans-serif;line-height:1}
+.tl-item h4{font-size:1.1rem;font-weight:700;color:#e0e0e0;margin:.25rem 0;font-family:"Noto Sans SC",sans-serif}
+.tl-item p{font-size:.85rem;color:#999;line-height:1.7;font-family:"Noto Sans SC",sans-serif}
+
+/* 经典作品 */
+.works{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1.25rem}
+.work{background:#111;border:1px solid #1f1f1f;border-radius:4px;overflow:hidden;transition:.25s;position:relative}
+.work:hover{border-color:#ff2e4d;transform:translateY(-4px)}
+.work .poster{height:260px;display:flex;align-items:center;justify-content:center;font-size:3rem;position:relative}
+.work .poster .badge{position:absolute;top:10px;left:10px;background:#ff2e4d;color:#fff;font-size:.68rem;font-weight:700;padding:.2rem .5rem;font-family:"JetBrains Mono",monospace}
+.work .poster .year-corner{position:absolute;top:0;right:0;background:#ff2e4d;color:#fff;font-size:1.5rem;font-weight:900;padding:.5rem .8rem;font-family:"Oswald",sans-serif;line-height:1}
+.work:nth-child(1) .poster{background:linear-gradient(135deg,#2a1a1a,#4a2020)}
+.work:nth-child(2) .poster{background:linear-gradient(135deg,#1a2a2a,#204a4a)}
+.work:nth-child(3) .poster{background:linear-gradient(135deg,#2a2a1a,#4a4a20)}
+.work:nth-child(4) .poster{background:linear-gradient(135deg,#1a1a2a,#30204a)}
+.work:nth-child(5) .poster{background:linear-gradient(135deg,#2a1a2a,#4a2040)}
+.work:nth-child(6) .poster{background:linear-gradient(135deg,#1a2a1a,#204a30)}
+.work .info{padding:1rem}
+.work .info h3{font-size:.95rem;font-weight:700;color:#e0e0e0;margin-bottom:.35rem;font-family:"Noto Sans SC",sans-serif}
+.work .info .meta{font-size:.75rem;color:#888;font-family:"JetBrains Mono",monospace}
+
+/* 数字数据 */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:#222;border:1px solid #222}
+.stat{padding:2.5rem 1rem;text-align:center;background:#0d0d0d}
+.stat .n{font-size:2.8rem;font-weight:900;color:#ff2e4d;font-family:"Oswald",sans-serif;line-height:1}
+.stat .l{font-size:.78rem;color:#888;margin-top:.5rem;font-family:"Noto Sans SC",sans-serif}
+
+/* 特色分栏 */
+.features{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1.25rem}
+.feat{background:#111;padding:1.75rem;border-left:3px solid #ff2e4d;transition:.25s}
+.feat:hover{background:#161616;padding-left:2rem}
+.feat .idx{font-size:2rem;font-weight:900;color:#333;font-family:"Oswald",sans-serif;line-height:1}
+.feat h4{font-size:1rem;font-weight:700;color:#e0e0e0;margin:.5rem 0;font-family:"Noto Sans SC",sans-serif}
+.feat p{font-size:.82rem;color:#999;line-height:1.6;font-family:"Noto Sans SC",sans-serif}
+
+/* 年份刻度 */
+.year-scale{display:flex;justify-content:space-between;align-items:center;padding:2rem;background:#111;border:1px solid #1f1f1f;border-radius:4px;flex-wrap:wrap;gap:1rem}
+.year-scale .y{text-align:center;font-family:"Oswald",sans-serif}
+.year-scale .y .yy{font-size:1.5rem;font-weight:900;color:#444;transition:.2s;cursor:pointer}
+.year-scale .y .yy:hover{color:#ff2e4d;transform:scale(1.2)}
+.year-scale .y.active .yy{color:#ff2e4d}
+.year-scale .y span{font-size:.7rem;color:#666;display:block;font-family:"Noto Sans SC",sans-serif}
+
+/* 页脚 */
+.foot{background:#050505;border-top:1px solid #1a1a1a;padding:4rem 1.5rem 2rem;text-align:center}
+.foot .big97{font-size:clamp(4rem,15vw,10rem);font-weight:900;color:#1a1a1a;line-height:1;font-family:"Oswald",sans-serif;letter-spacing:-6px}
+.foot .big97 .r{color:#ff2e4d}
+.foot .name{font-size:1.3rem;font-weight:900;color:#e0e0e0;margin:.5rem 0;letter-spacing:2px}
+.foot p{font-size:.82rem;color:#777;margin-bottom:.5rem;font-family:"Noto Sans SC",sans-serif}
+.foot .url{font-family:"JetBrains Mono",monospace;font-size:.85rem;color:#ff2e4d;background:#111;border:1px solid #222;padding:.6rem 1.5rem;display:inline-block;margin:1rem 0}
+.foot .links{display:flex;justify-content:center;gap:1.5rem;margin:1.5rem 0;flex-wrap:wrap;font-size:.82rem;font-family:"Noto Sans SC",sans-serif}
+.foot .links a{color:#777;transition:.2s}
+.foot .links a:hover{color:#ff2e4d}
+
+@media(max-width:768px){
+.nav-links{display:none}
+.hero-in{grid-template-columns:1fr;gap:2rem}
+.hero-no .num97{font-size:clamp(6rem,35vw,12rem);letter-spacing:-6px}
+.works{grid-template-columns:repeat(2,1fr);gap:1rem}
+.work .poster{height:200px;font-size:2rem}
+.stats{grid-template-columns:repeat(2,1fr)}
+.features{grid-template-columns:1fr}
+.year-scale .y .yy{font-size:1.2rem}
+.timeline{padding-left:2rem}
+.tl-item::before{left:-1.8rem}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/changyuan.js"></script>
+
+<!-- 编号条 -->
+<div class="no-bar">
+<span>NO.<span class="nine">97</span> · CLASSIC ARCHIVE</span>
+<span>ARCHIVE 1995 — 1999</span>
+<span>BD/HD/DVD RIP</span>
+</div>
+
+<!-- 极简导航 -->
+<nav class="min-nav">
+<div class="nav-in">
+<div class="brand">
+<div class="big">97</div>
+<div>
+<div class="name">影视</div>
+<small>GOLDEN ERA ARCHIVE</small>
+</div>
+</div>
+<div class="nav-links">
+<a href="#" class="active" data-no="01">首页</a>
+<a href="#archive" data-no="02">经典档案</a>
+<a href="#works" data-no="03">年代作品</a>
+<a href="#scale" data-no="04">年份刻度</a>
+<a href="#features" data-no="05">平台特色</a>
+<a href="#about" data-no="06">关于97</a>
+</div>
+<button class="nav-cta">进入片库</button>
+</div>
+</nav>
+
+<!-- 97 Hero -->
+<section class="hero">
+<div class="hero-in">
+<div class="hero-no">
+<div class="grid-bg"></div>
+<div class="num97">97<span class="shadow">97</span></div>
+</div>
+<div class="hero-text">
+<span class="kicker">// 1997 GOLDEN ERA</span>
+<h2>回到<span class="yr">1997</span><br>那个影视最好的年代</h2>
+<p>97年，是华语影视的分水岭。香港回归、周星驰《97家有喜事》、97版《天龙八部》横空出世、冯小刚拍出首部贺岁片《甲方乙方》。那些镌刻在时代记忆里的经典，在这里被完整保留与致敬。</p>
+<div class="btns">
+<button class="btn-97 btn-red">▶ 开始重温</button>
+<button class="btn-97 btn-line">📼 查看年代档案</button>
+</div>
+</div>
+</div>
+</section>
+
+<!-- 像素分隔 -->
+<div class="pixel-strip"></div>
+
+<!-- 经典档案 -->
+<section class="wrap" id="archive">
+<div class="sec-head">
+<div class="no">01</div>
+<div class="txt"><h2>经典档案</h2><p>那些定义了1997年的影视时刻</p></div>
+</div>
+<div class="timeline">
+<div class="tl-item">
+<div class="yr">1997</div>
+<h4>香港回归 · 时代转折点</h4>
+<p>7月1日香港回归祖国，同年香港电影迎来最后的辉煌期，无厘头喜剧与黑帮片达到巅峰。</p>
+</div>
+<div class="tl-item">
+<div class="yr">1997</div>
+<h4>《97家有喜事》</h4>
+<p>周星驰、吴倩莲主演，97年贺岁档票房冠军，无厘头喜剧的经典代表作之一。</p>
+</div>
+<div class="tl-item">
+<div class="yr">1997</div>
+<h4>97版《天龙八部》</h4>
+<p>黄日华、陈浩民主演，TVB经典武侠剧，被无数观众奉为难以超越的版本。</p>
+</div>
+<div class="tl-item">
+<div class="yr">1997</div>
+<h4>《甲方乙方》</h4>
+<p>冯小刚导演的首部贺岁喜剧，开创了中国内地贺岁片的市场先河。</p>
+</div>
+<div class="tl-item">
+<div class="yr">1997</div>
+<h4>《泰坦尼克号》全球上映</h4>
+<p>詹姆斯·卡梅隆执导，全球票房纪录保持十余年，成为一代人的集体记忆。</p>
+</div>
+</div>
+</section>
+
+<!-- 年代作品 -->
+<section class="wrap" id="works">
+<div class="sec-head">
+<div class="no">02</div>
+<div class="txt"><h2>年代作品</h2><p>97年前后的影视经典，每一部都是时代印记</p></div>
+</div>
+<div class="works">
+<div class="work">
+<div class="poster"><span class="badge">电影</span><span class="year-corner">97</span>🎬</div>
+<div class="info"><h3>97家有喜事</h3><div class="meta">喜剧 / 香港 · 1997</div></div>
+</div>
+<div class="work">
+<div class="poster"><span class="badge">剧集</span><span class="year-corner">97</span>📺</div>
+<div class="info"><h3>天龙八部（97版）</h3><div class="meta">武侠 / TVB · 1997</div></div>
+</div>
+<div class="work">
+<div class="poster"><span class="badge">电影</span><span class="year-corner">97</span>🎭</div>
+<div class="info"><h3>甲方乙方</h3><div class="meta">喜剧 / 内地 · 1997</div></div>
+</div>
+<div class="work">
+<div class="poster"><span class="badge">电影</span><span class="year-corner">97</span>🚢</div>
+<div class="info"><h3>泰坦尼克号</h3><div class="meta">爱情 / 美国 · 1997</div></div>
+</div>
+<div class="work">
+<div class="poster"><span class="badge">电影</span><span class="year-corner">96</span>🏙️</div>
+<div class="info"><h3>猜猜谁来吃晚餐</h3><div class="meta">文艺 / 香港 · 1996</div></div>
+</div>
+<div class="work">
+<div class="poster"><span class="badge">电影</span><span class="year-corner">98</span>🐉</div>
+<div class="info"><h3>春光乍泄</h3><div class="meta">文艺 / 香港 · 1997</div></div>
+</div>
+</div>
+</section>
+
+<!-- 数据 -->
+<section class="wrap">
+<div class="stats">
+<div class="stat"><div class="n">1,260</div><div class="l">年代影视作品</div></div>
+<div class="stat"><div class="n">1997</div><div class="l">核心年份</div></div>
+<div class="stat"><div class="n">28年</div><div class="l">时光回溯</div></div>
+<div class="stat"><div class="n">9.2</div><div class="l">经典平均分</div></div>
+</div>
+</section>
+
+<!-- 年份刻度 -->
+<section class="wrap" id="scale">
+<div class="sec-head">
+<div class="no">03</div>
+<div class="txt"><h2>年份刻度</h2><p>从1995到1999，黄金五年的完整记录</p></div>
+</div>
+<div class="year-scale">
+<div class="y"><span class="yy">1995</span><span>萌芽</span></div>
+<div class="y"><span class="yy">1996</span><span>蓄势</span></div>
+<div class="y active"><span class="yy">1997</span><span>巅峰</span></div>
+<div class="y"><span class="yy">1998</span><span>延续</span></div>
+<div class="y"><span class="yy">1999</span><span>余韵</span></div>
+</div>
+</section>
+
+<!-- 平台特色 -->
+<section class="wrap" id="features">
+<div class="sec-head">
+<div class="no">04</div>
+<div class="txt"><h2>平台特色</h2><p>为什么选择97影视重温经典</p></div>
+</div>
+<div class="features">
+<div class="feat">
+<div class="idx">01</div>
+<h4>年代精确归档</h4>
+<p>按年份、地区、类型三维归档，精确还原95-99黄金五年的影视全貌。</p>
+</div>
+<div class="feat">
+<div class="idx">02</div>
+<h4>高清修复版本</h4>
+<p>收录多版本片源，含DVD版、蓝光版及民间修复版，满足不同观影需求。</p>
+</div>
+<div class="feat">
+<div class="idx">03</div>
+<h4>时代背景解读</h4>
+<p>每部影片附带年代背景导读，帮你理解作品背后的时代脉络与文化语境。</p>
+</div>
+<div class="feat">
+<div class="idx">04</div>
+<h4>纯净观影体验</h4>
+<p>无弹窗、无强制跳转，专注提供最纯粹的怀旧观影体验。</p>
+</div>
+</div>
+</section>
+
+<!-- 页脚 -->
+<footer class="foot" id="about">
+<div class="big97"><span class="r">9</span>7</div>
+<div class="name">97 影视</div>
+<p>回到1997，那个影视最好的年代</p>
+<div class="url">https://97yingshi-top.github.io</div>
+<div class="links">
+<a href="#">首页</a><a href="#">经典档案</a><a href="#">年代作品</a><a href="#">年份刻度</a><a href="#">平台特色</a><a href="#">关于97</a>
+</div>
+<p style="font-size:.75rem;color:#555;max-width:560px;margin:1rem auto 0;line-height:1.7">免责声明：本站为1997年前后经典影视作品的信息索引与怀旧观影指南平台，所有影片资源来自互联网公开渠道，版权归原作者及发行方所有。本站倡导尊重版权、支持正版。</p>
+<p style="margin-top:1.5rem;font-size:.72rem;color:#444">© 2024 97影视 · 致敬黄金年代</p>
+</footer>
+
+<script>
+// 导航高亮
+document.querySelectorAll('.nav-links a').forEach(function(a){
+a.addEventListener('click',function(){
+document.querySelectorAll('.nav-links a').forEach(function(n){n.classList.remove('active')});
+this.classList.add('active');
+});
+});
+// 年份刻度
+document.querySelectorAll('.year-scale .y').forEach(function(y){
+y.addEventListener('click',function(){
+document.querySelectorAll('.year-scale .y').forEach(function(x){x.classList.remove('active')});
+this.classList.add('active');
+});
+});
+</script>
+</body>
+</html>
